@@ -17,6 +17,20 @@
             text-align: center;
             padding: 100px 0;
         }
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+        .hero-content img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #838587;
+            margin-right: 20px;
+        }
         .navbar {
             background: rgba(0, 0, 0, 0.8);
         }
@@ -38,7 +52,7 @@
             content: '';
             position: absolute;
             width: 6px;
-            background: #878a8c;
+            background: #838587;
             top: 0;
             bottom: 0;
             left: 50%;
@@ -58,15 +72,6 @@
         }
         .timeline-item.right {
             left: 55%;
-        }
-        .profile-img {
-            display: block;
-            margin: auto;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid #007bff;
         }
     </style>
 </head>
@@ -89,9 +94,13 @@
     </nav>
     
     <div class="hero">
-        <img src="dp.jpeg" class="profile-img">
-        <h1 class="display-4">Isha Chopra</h1>
-        <p class="lead">Senior Technical Writer | Content Strategist</p>
+        <div class="container hero-content">
+            <img src="dp.jpeg" alt="Isha Chopra">
+            <div>
+                <h1 class="display-4">Isha Chopra</h1>
+                <p class="lead">Technical Writer | Content Strategist</p>
+            </div>
+        </div>
     </div>
     
     <div class="container section" id="about">
@@ -103,27 +112,27 @@
         <h2>Work Experience</h2>
         <div class="timeline">
             <div class="timeline-item left">
-                <h4>Senior Technical Writer - RudderStack</h4>
+                <h4>Senior Technical Writer   Lyric.tech</h4>
                 <p>Nov 2024 - Present</p>
             </div>
             <div class="timeline-item right">
-                <h4>Senior Technical Writer - RudderStack</h4>
+                <h4>Senior Technical Writer RudderStack</h4>
                 <p>Jan 2022 - Oct 2024</p>
             </div>
             <div class="timeline-item left">
-                <h4>Senior Technical Writer - GrapeCity, Inc</h4>
+                <h4>Senior Technical Writer GrapeCity, Inc</h4>
                 <p>Jan 2021 - Dec 2021</p>
             </div>
             <div class="timeline-item right">
-                <h4>Technical Writer - GrapeCity, Inc</h4>
+                <h4>Technical Writer GrapeCity, Inc</h4>
                 <p>March 2019 - Dec 2020</p>
             </div>
             <div class="timeline-item left">
-                <h4>Creative Content Writer - myPAT</h4>
+                <h4>Creative Content Writer myPAT</h4>
                 <p>Jan 2018 - Jan 2019</p>
             </div>
             <div class="timeline-item right">
-                <h4>Software Engineer - Accenture</h4>
+                <h4>Software Engineer Accenture</h4>
                 <p>Oct 2014 - Jan 2018</p>
             </div>
         </div>
