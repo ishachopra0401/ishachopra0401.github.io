@@ -1,239 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isha Chopra | Technical Writer Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-        .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x900/?technology,writing') center/cover;
-            color: white;
-            text-align: center;
-            padding: 100px 0;
-        }
-        .hero-content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: left;
-        }
-        .hero-content img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid #838587;
-            margin-right: 20px;
-        }
-        .navbar {
-            background: rgba(0, 0, 0, 0.8);
-        }
-        .section {
-            padding: 60px 0;
-        }
-        .footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: white;
-        }
-        .timeline {
-            position: relative;
-            max-width: 800px;
-            margin: auto;
-        }
-        .timeline::after {
-            content: '';
-            position: absolute;
-            width: 6px;
-            background: #838587;
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -3px;
-        }
-        .timeline-item {
-            position: relative;
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            width: 45%;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .timeline-item.left {
-            left: 0;
-        }
-        .timeline-item.right {
-            left: 55%;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isha Chopra | Technical Writer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+    }
+  </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Isha Chopra</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <div class="hero">
-        <div class="container hero-content">
-            <img src="dp.jpeg" alt="Isha Chopra">
-            <div>
-                <h1 class="display-4">Isha Chopra</h1>
-                <p class="lead">Technical Writer | Content Strategist <br/></p>
-                    <p style="font-size:16px">I write words that make your tech talk human.</p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="container section" id="about">
-        <h2>About Me</h2>
-          
-            <p>
-                👋 Hey! I'm a <strong>Technical Writer</strong> with 10+ years of experience turning complex tech into delightful, user-friendly content. I specialize in crafting documentation for SaaS platforms, developer tools, SDKs, and APIs.
-            </p>
-          
-            <p style="font-size: 18px;">🛠️ What I do</p>
-            <ul>
-              <li>Transform technical jargon into crisp, <strong>conversion-driven documentation</strong></li>
-              <li>Create developer guides, blog posts, release notes, and even <strong>tech podcasts</strong></li>
-              <li>Craft <strong>UX content</strong> and in-product help that actually <em>helps</em></li>
-              <li>Design <strong>user-guided tours</strong> that reduce drop-offs and boost onboarding</li>
-              <li>Play nice with AI — using tools like <strong>ChatGPT, Claude, Synthesia, ElevenLabs</strong> and more for content, video, and audio workflows</li>
-            </ul>
-          
-            <p>
-              I've helped teams at <strong>Lyric.tech</strong>, <strong>RudderStack</strong>, and <strong>GrapeCity</strong> build content ecosystems that scale.<br><br>
-              If your users are confused, I'm here to write them into clarity.
-            </p>
-          
-            <blockquote style="font-size: 1.1rem; font-style: italic; color: #555; border-left: 4px solid #ccc; padding-left: 1rem; margin-top: 2rem;">
-              💬 Code is cool. But clear docs? That’s the real superpower. 💥
-            </blockquote>
-    </div>
-    
-    <div class="container section" id="experience">
-        <h2>Work Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item left">
-                <h4>Senior Technical Writer   Lyric.tech</h4>
-                <p>Nov 2024 - Present</p>
-            </div>
-            <div class="timeline-item right">
-                <h4>Senior Technical Writer RudderStack</h4>
-                <p>Jan 2022 - Oct 2024</p>
-            </div>
-            <div class="timeline-item left">
-                <h4>Senior Technical Writer GrapeCity, Inc</h4>
-                <p>Jan 2021 - Dec 2021</p>
-            </div>
-            <div class="timeline-item right">
-                <h4>Technical Writer GrapeCity, Inc</h4>
-                <p>March 2019 - Dec 2020</p>
-            </div>
-            <div class="timeline-item left">
-                <h4>Creative Content Writer myPAT</h4>
-                <p>Jan 2018 - Jan 2019</p>
-            </div>
-            <div class="timeline-item right">
-                <h4>Software Engineer Accenture</h4>
-                <p>Oct 2014 - Jan 2018</p>
-            </div>
-        </div>
-    </div>
+<body class="bg-white text-gray-800">
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-indigo-200 via-pink-100 to-yellow-100 py-20 px-6 text-center">
+    <div class="max-w-3xl mx-auto">
+      <img src="dp.jpeg" alt="Isha Chopra" class="w-32 h-32 mx-auto rounded-full border-4 border-gray-300 shadow-lg" />
+      <h1 class="text-4xl font-bold mt-6">Isha Chopra</h1>
+      <p class="text-xl mt-2 font-medium">Technical Writer & Content Strategist</p>
+      <p class="mt-4 italic text-gray-600">I write words that make your tech talk human 🤓📖</p>
 
-    <div class="container section" id="projects">
-        <h2>🚀 Projects</h2> <br/><br/>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="max-w-4xl mx-auto py-16 px-6" id="about">
+    <h2 class="text-3xl font-bold text-center mb-8">👋 About Me</h2>
+  
+    <p class="mb-4">
+      I'm a <strong>Technical Writer</strong> with 10+ years of experience turning complex tech into delightful, user-friendly content.
+      I specialize in crafting documentation for SaaS platforms, developer tools, SDKs, and APIs.
+    </p>
+  
+    <!-- Adjust spacing here -->
+    <div class="mb-6">
+      <p class="text-2xl font-semibold mb-2">What I do?</p>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Transform technical jargon into crisp, <strong>conversion-driven documentation</strong></li>
+        <li>Create developer guides, blog posts, release notes, and even <strong>tech podcasts</strong></li>
+        <li>Craft <strong>UX content</strong> and in-product help that actually <em>helps</em></li>
+        <li>Design <strong>user-guided tours</strong> that reduce drop-offs and boost onboarding</li>
+        <li>Play nice with AI — using tools like <strong>ChatGPT, Claude, Synthesia, ElevenLabs</strong></li>
+      </ul>
+    </div>
+  
+    <p>
+      I've helped teams at <strong>Lyric.tech</strong>, <strong>RudderStack</strong>, and <strong>GrapeCity</strong>
+      build content ecosystems that scale.
+    </p>
+  
+    <blockquote class="mt-6 border-l-4 border-indigo-500 pl-4 italic text-gray-600">
+      💬 Code is cool. But clear docs? That’s the real superpower. 💥
+    </blockquote>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="bg-gray-100 py-16 px-6" id="experience">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">💼 Work Experience</h2>
+      <ol class="relative border-l border-gray-300">
+        <li class="mb-10 ml-6">
+          <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-2 top-1"></div>
+          <h3 class="font-bold">Senior Technical Writer @ Lyric.tech</h3>
+          <time class="block mb-2 text-sm text-gray-500">Nov 2024 - Present</time>
+        </li>
+        <li class="mb-10 ml-6">
+          <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-2 top-1"></div>
+          <h3 class="font-bold">Senior Technical Writer @ RudderStack</h3>
+          <time class="block mb-2 text-sm text-gray-500">Jan 2022 - Oct 2024</time>
+        </li>
+        <li class="mb-10 ml-6">
+          <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-2 top-1"></div>
+          <h3 class="font-bold">Senior Technical Writer @ GrapeCity</h3>
+          <time class="block mb-2 text-sm text-gray-500">Jan 2021 - Dec 2021</time>
+        </li>
+        <li class="mb-10 ml-6">
+          <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-2 top-1"></div>
+          <h3 class="font-bold">Technical Writer @ GrapeCity</h3>
+          <time class="block mb-2 text-sm text-gray-500">Mar 2019 - Dec 2020</time>
+        </li>
+        <li class="mb-10 ml-6">
+          <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-2 top-1"></div>
+          <h3 class="font-bold">Creative Content Writer @ myPAT</h3>
+          <time class="block mb-2 text-sm text-gray-500">Jan 2018 - Jan 2019</time>
+        </li>
+        <li class="mb-10 ml-6">
+          <div class="absolute w-4 h-4 bg-indigo-500 rounded-full -left-2 top-1"></div>
+          <h3 class="font-bold">Software Engineer @ Accenture</h3>
+          <time class="block mb-2 text-sm text-gray-500">Oct 2014 - Jan 2018</time>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="max-w-5xl mx-auto py-16 px-6" id="projects">
+    <h2 class="text-3xl font-bold text-center mb-12">🚀 Project Samples</h2>
+    <div class="container section" id="projects" style="max-width: 900px; margin: auto; font-family: 'Segoe UI', sans-serif;">
       
-        <div>
-          <p style="font-size: 20px;">🧩 RudderStack Profiles</p>
-          <p>📋 <strong>Description:</strong> Wrote and maintained product documentation for the Profiles feature.</p>
-          <p>🔧 <strong>Tools:</strong> Hugo, GitHub</p>
-          <p>👩‍💻 <strong>My Role:</strong> Created all guides including Getting Started, Tutorials, and API References.</p>
-          <p>🔗 <a href="https://www.rudderstack.com/docs/profiles/overview/" target="_blank">View Docs</a></p>
-          <img src="profiles.png" alt="RudderStack Profiles" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-        </div><br/><br/>
-
-        <div>
-            <p style="font-size: 20px;">🧩 User Suppression API</p>
-            <p>📋 <strong>Description:</strong> Wrote and maintained product documentation for the User Suppression API.</p>
-            <p>🔧 <strong>Tools:</strong> Hugo, GitHub</p>
-            <p>👩‍💻 <strong>My Role:</strong> Created API Reference guide.</p>
-            <p>🔗 <a href="https://www.rudderstack.com/docs/api/user-suppression-api/" target="_blank">View Docs</a></p>
-            <img src="UserSuppression.png" alt="RudderStack Profiles" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-          </div><br/><br/>
-
-          <div>
-            <p style="font-size: 20px;">🧩 JavaScript SDK</p>
-            <p>📋 <strong>Description:</strong> Wrote and maintained product documentation for the JavaScript SDK.</p>
-            <p>🔧 <strong>Tools:</strong> Hugo, GitHub</p>
-            <p>👩‍💻 <strong>My Role:</strong> Created API Reference guide.</p>
-            <p>🔗 <a href="https://www.rudderstack.com/docs/sources/event-streams/sdks/rudderstack-javascript-sdk/" target="_blank">View Docs</a></p>
-            <img src="javascriptsdk.png" alt="RudderStack Profiles" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-          </div><br/><br/>
+        <div class="project-card" style="border: 1px solid #ddd; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+            <!-- Project Title -->
+            <p style="font-size: 24px; font-weight: bold;">🧩 User Guide Documentation</p>
+          
+            <!-- My Role -->
+            <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">👩‍💻 <strong>My Role</strong></p>
+            <p style="font-size: 16px; color: #555;">Took an active role from the feature conception stage - collaborating with Product Managers, Developers, and QA teams to understand the requirements. Gathered inputs to shape content direction, identified areas for troubleshooting and FAQs, and drafted the documentation. The draft underwent iterative review and approvals before final publication.</p>
+          
+            <!-- Tools Section -->
+            <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔧 <strong>Tools</strong></p>
+            <p style="font-size: 16px; color: #555;">Hugo, GitHub</p>
+          
+            <!-- View Docs Link -->
+            <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔗 <strong><a href="https://www.rudderstack.com/docs/profiles/overview/" target="_blank">View Docs</a></strong></p>
+          
+            <!-- Project Image -->
+            <img src="profiles.png" alt="RudderStack Profiles" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; margin-top: 1rem;">
+          </div>
+          
       
-        <div>
-            <p style="font-size: 20px;">🧩 Document Solutions PDF Viewer</p>
-          <p>📋 <strong>Description:</strong> Wrote and maintained documentation for the .NET PDF Viewer.</p>
-          <p>🔧 <strong>Tools:</strong> Innovasys, Snagit</p>
-          <p>👩‍💻 <strong>My Role:</strong> Created all guides including Getting Started, Tutorials, and API References.</p>
-          <p>🔗 <a href="https://developer.mescius.com/document-solutions/dot-net-pdf-api/docs/online/pdfviewer.html" target="_blank">View Docs</a></p>
-          <img src="pdfviewer.png" alt="PDF Viewer Documentation" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-        </div><br/><br/>
-      
-        <div style="margin-bottom: 3rem;">
-            <p style="font-size: 20px;">🧩 Excel WEBSERVICE Function</p>
-          <p>📋 <strong>Description:</strong> Wrote a detailed blog on integrating Excel’s WEBSERVICE function with C#.</p>
-          <p>🔧 <strong>Tools:</strong> Innovasys, Snagit</p>
-          <p>👩‍💻 <strong>My Role:</strong> Authored the blog content and provided code samples.</p>
-          <p>🔗 <a href="https://developer.mescius.com/blogs/add-webservice-function-excel-c-sharp" target="_blank">View Blog</a></p>
-          <img src="blog1.png" alt="Excel WEBSERVICE Blog" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-        </div>
-
-      <div style="margin-bottom: 3rem;">
-        <p style="font-size: 20px;">🧩 Freelancing Projects</p>
-      <p>📋 <strong>Description:</strong> Written blogs for Revv - self rental cars</p>
-      <p>📋 <strong>Description:</strong> Written blogs for Headout - travel company</p>
-      <p>👩‍💻 <strong>My Role:</strong> Authored the blog content and provided code samples.</p>
-    </div>
+        <!-- API Documentation -->
+<div class="project-card" style="border: 1px solid #ddd; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <p style="font-size: 24px; font-weight: bold;">🧩 API Documentation</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">📋 <strong>My Role</strong></p>
+    <p style="font-size: 16px; color: #555;">Engaged with stakeholders to gather API requirements and identify user challenges. Authenticated and tested each API endpoint via Swagger, ensuring accuracy and completeness before drafting precise documentation.</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔧 <strong>Tools</strong></p>
+    <p style="font-size: 16px; color: #555;">Hugo, GitHub</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔗 <strong><a href="https://www.rudderstack.com/docs/api/user-suppression-api/" target="_blank">View Docs</a></strong></p>
+  
+    <img src="UserSuppression.png" alt="User Suppression API" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; margin-top: 1rem;">
   </div>
-    
-    <div class="container section" id="contact">
-        <h2>📬 Let's Connect!</h2>
-        <p>✨<strong>Looking for a freelance or contractual technical writer? Let's work together!</strong><br/>
-            Let's turn your complex product into content that clicks with your users.</p>
-            <ul>
-                <li>📄 <a href="IshaChopra.pdf" download style="text-decoration: none; color: #007acc;">View My Resume</a></li>
-                <li>📩 <a href="mailto:ishachopra1312@gmail.com" style="text-decoration: none; color: #007acc;">ishachopra1312@gmail.com</a></li>
-                <li>💼 <a href="https://www.linkedin.com/in/isha-chopra" target="_blank" style="text-decoration: none; color: #007acc;">Connect on LinkedIn</a></li>
-              </ul>
-              <p color: #555;>
-                Open to freelance gigs, consulting or editing projects, or just geeking out over good documentation!
-              </p>
+  
+  <!-- SDK Documentation -->
+  <div class="project-card" style="border: 1px solid #ddd; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <p style="font-size: 24px; font-weight: bold;">🧩 SDK Documentation</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">📋 <strong>My Role</strong></p>
+    <p style="font-size: 16px; color: #555;">Connected with stakeholders to understand business goals, technical constraints, and user struggles. Collaborated closely with engineers and QA to capture edge cases and drafted proactive, user-centered documentation.</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔧 <strong>Tools</strong></p>
+    <p style="font-size: 16px; color: #555;">Swagger, Hugo, GitHub</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔗 <strong><a href="https://www.rudderstack.com/docs/sources/event-streams/sdks/rudderstack-javascript-sdk/" target="_blank">View Docs</a></strong></p>
+  
+    <img src="javascriptsdk.png" alt="JavaScript SDK" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; margin-top: 1rem;">
+  </div>
+  
+  <!-- User Guide Documentation -->
+  <div class="project-card" style="border: 1px solid #ddd; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <p style="font-size: 24px; font-weight: bold;">🧩 User Guide Documentation</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">📋 <strong>My Role</strong></p>
+    <p style="font-size: 16px; color: #555;">Gathered insights on user challenges, key goals, and competitive differentiators. Collaborated cross-functionally to map flows, edge cases, and crafted clear, helpful documentation drafts.</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔧 <strong>Tools</strong></p>
+    <p style="font-size: 16px; color: #555;">Innovasys, Snagit</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔗 <strong><a href="https://developer.mescius.com/document-solutions/dot-net-pdf-api/docs/online/pdfviewer.html" target="_blank">View Docs</a></strong></p>
+  
+    <img src="pdfviewer.png" alt="PDF Viewer Documentation" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; margin-top: 1rem;">
+  </div>
+  
+  <!-- Technical Blog -->
+  <div class="project-card" style="border: 1px solid #ddd; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <p style="font-size: 24px; font-weight: bold;">🧩 Technical Blog</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">📋 <strong>My Role</strong></p>
+    <p style="font-size: 16px; color: #555;">Used GcExcel API formulas to create a real-world use case for retrieving weather data via a web service. Delivered full code sample, rich content, and illustrative screenshots.</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔧 <strong>Tools</strong></p>
+    <p style="font-size: 16px; color: #555;">MsWord, Snagit</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">🔗 <strong><a href="https://developer.mescius.com/blogs/add-webservice-function-excel-c-sharp" target="_blank">View Blog</a></strong></p>
+  
+    <img src="blog1.png" alt="Excel WEBSERVICE Blog" style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; margin-top: 1rem;">
+  </div>
+  
+  <!-- UX Content Review -->
+  <div class="project-card" style="border: 1px solid #ddd; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <p style="font-size: 24px; font-weight: bold;">🧩 UX Content Review</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">📋 <strong>My Role</strong></p>
+    <p style="font-size: 16px; color: #555;">Reviewed SaaS platform screens to ensure clarity, brevity, and user-friendliness. Focused on consistency and alignment with UX writing best practices.</p>
+  </div>
+  
+  <!-- Freelancing Blogging Projects -->
+  <div class="project-card" style="border: 1px solid #ddd; border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+    <p style="font-size: 24px; font-weight: bold;">🧩 Blogging Projects</p>
+  
+    <p style="font-size: 16px; font-weight: bold; margin-top: 1rem; color: #333;">📋 <strong>My Role</strong></p>
+    <p style="font-size: 16px; color: #555;">Freelanced travel-focused blogs for <strong>Revv</strong> (a self-rental car business) and <strong>Headout</strong> (a travel company), blending engaging storytelling with SEO strategy to boost visibility and reader interest.</p>
+  </div>
+  
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="bg-indigo-50 py-16 px-6" id="contact">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">📬 Let's Connect!</h2>
+
+      <p class="mb-6">✨ 💌 Got an exciting project? Let’s chat! Drop me a line and turn your complex product into content that clicks with your users.</p>
+      <ul class="space-y-2">
+        <li>📄 <a href="IshaChopra.pdf" download class="text-blue-600 font-medium">View My Resume</a></li>
+        <li>📩 <a href="mailto:ishachopra1312@gmail.com" class="text-blue-600 font-medium">ishachopra1312@gmail.com</a></li>
+        <li>💼 <a href="https://www.linkedin.com/in/isha-chopra" target="_blank" class="text-blue-600 font-medium">Connect on LinkedIn</a></li>
+      </ul>
+      <p class="mt-4 text-gray-600">Open to freelance gigs, consulting or editing projects, or just geeking out over good documentation!</p>
     </div>
-    
-    <div class="footer">
-        <p>&copy; 2025 Isha Chopra. All rights reserved.</p>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </section>
+
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2025 Isha Chopra. All rights reserved.</p>
+  </footer>
 </body>
 </html>
